@@ -1,0 +1,27 @@
+#box{
+    height:100px;
+    width:100px;
+    background:blue;
+    float: left;
+}
+#parent{
+    height: 500px;
+    width: 1280px;
+    /*background: green;*/
+    /*background: rgb(60, 75, 96);*/
+    /*background: #5f4321;*/
+    /*background: rgba(0,100,0,0.5);*/
+    /*background:hsl(120, 100%, 50%);*/
+    /*background: linear-gradient(45deg,blue, white);*/
+    /*wx*/
+    background:url("../img/archi.jpg") center;
+    position: relative;
+}
+#child{
+    height: 100px;
+    width: 100px;
+    background: orange;
+    position: absolute;
+    right:0;
+    bottom: 0;
+}

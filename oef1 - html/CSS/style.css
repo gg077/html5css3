@@ -1,0 +1,103 @@
+.flexboxcontainer{
+    display: flex;
+}
+
+.blok1,.blok2,.blok3{
+    height: 200px;
+    width: 200px;
+}
+.blok1{
+
+    background: orange;
+}
+.blok2{
+
+    background: blue;
+}
+.blok3{
+
+    background: purple;
+}
+#flexboxrow-reverse{
+    flex-direction: row-reverse;
+}
+#flexboxrowcolumn{
+    flex-direction: column;
+}
+#flexboxcolumn-reverse{
+    flex-direction: column-reverse;
+}
+#flexboxjustify{
+    width: 100%;
+    background: yellow;
+    height: 300px;
+    border: 3px solid black;
+    border: 15px dotted rgba(100,100,100,0.5);
+    justify-content: center;
+}
+#flexboxjustifyend{
+    width: 100%;
+    background: yellow;
+    height: 300px;
+    border: 3px solid black;
+    border: 15px dotted rgba(100,100,100,0.5);
+    justify-content: end;
+}
+#flexboxjustifystart{
+    width: 100%;
+    background: yellow;
+    height: 300px;
+    border: 3px solid black;
+    border: 15px dotted rgba(100,100,100,0.5);
+    justify-content: start;
+}
+#flexboxjustifybetween{
+    width: 100%;
+    background: yellow;
+    height: 300px;
+    border: 3px solid black;
+    border: 15px dotted rgba(100,100,100,0.5);
+    justify-content: space-between;
+}
+#flexboxjustifyaround{
+    width: 100%;
+    background: yellow;
+    height: 300px;
+    border: 3px solid black;
+    border: 15px dotted rgba(100,100,100,0.5);
+    justify-content: space-around;
+}
+#flexboxjustifyevenly{
+    width: 100%;
+    background: yellow;
+    height: 300px;
+    border: 3px solid black;
+    border: 15px dotted rgba(100,100,100,0.5);
+    justify-content: space-evenly;
+}
+#alignitemsstart{
+    width: 100%;
+    background: yellow;
+    height: 300px;
+    border: 3px solid black;
+    border: 15px dotted rgba(100,100,100,0.5);
+    align-items: flex-start;
+}
+#alignitemitems{
+    width: 100%;
+    background: yellow;
+    height: 300px;
+    border: 3px solid black;
+    border: 15px dotted rgba(100,100,100,0.5);
+    align-items: center;
+}
+#centercenter{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#rightunder{
+    height: 100vh;
+    justify-content: right;
+    align-items: end;
+}
